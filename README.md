@@ -19,13 +19,10 @@ Using npm:
  # Backend only
  npm run server
  
- # Frontend only
- npm run client
- 
  # Build client
  cd client
  npm run build
  
  # Prod
- npm start
+ npm run start
 ```

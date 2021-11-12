@@ -14,7 +14,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/ap1/v1/transactions', transactions);
+app.use('/api/v1/transactions', transactions);
 
 const PORT = process.env.PORT || 5000;
 
